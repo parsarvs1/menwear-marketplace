@@ -1,0 +1,117 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "title": "poshak mardane1",
+      "images": "/images/1.jpg",
+      "price": 1000000,
+      "desc": "لباس مردانه برای مهمانی",
+      "category": "mardane"
+    },
+    {
+      "id": "2",
+      "title": "poshak mardane2",
+      "images": "/images/2.jpg",
+      "price": 1500000,
+      "desc": "لباس مردانه برای مهمانی",
+      "category": "zanane"
+    },
+    {
+      "id": "3",
+      "title": "poshak mardane3",
+      "images": "/images/3.jpg",
+      "price": 2000000,
+      "desc": "لباس مردانه برای مهمانی",
+      "category": "zanane"
+    },
+    {
+      "id": "4",
+      "title": "poshak mardane4",
+      "images": "/images/4.jpg",
+      "price": 2500000,
+      "desc": "لباس مردانه برای مهمانی",
+      "category": "zanane"
+    },
+    {
+      "id": "5",
+      "title": "poshak mardane5",
+      "images": "/images/13.jpg",
+      "price": 3000000,
+      "desc": "لباس مردانه برای مهمانی",
+      "category": "bachegan"
+    },
+    {
+      "id": "6",
+      "title": "poshak mardane6",
+      "images": "/images/5.webp",
+      "price": 3500000,
+      "desc": "لباس مردانه برای مهمانی",
+      "category": "bachegan"
+    },
+    {
+      "id": "7",
+      "title": "poshak mardane7",
+      "images": "/images/6.jpg",
+      "price": 4000000,
+      "desc": "لباس مردانه برای مهمانی",
+      "category": "mardane"
+    },
+    {
+      "id": "8",
+      "title": "poshak mardane8",
+      "images": "/images/11.webp",
+      "price": 4500000,
+      "desc": "لباس مردانه برای مهمانی",
+      "category": "mardane"
+    },
+    {
+      "id": "9",
+      "title": "poshak mardane9",
+      "images": "/images/11.jpg",
+      "price": 5000000,
+      "desc": "لباس مردانه برای مهمانی",
+      "category": "mardane"
+    },
+    {
+      "id": "10",
+      "title": "poshak mardane10",
+      "images": "/images/12.jpg",
+      "price": 5500000,
+      "desc": "لباس مردانه برای مهمانی",
+      "category": "zanane"
+    },
+    {
+      "id": "11",
+      "title": "poshak mardane11",
+      "images": "/images/17.jpg",
+      "price": 6000000,
+      "desc": "لباس مردانه برای مهمانی",
+      "category": "mardane"
+    },
+    {
+      "id": "12",
+      "title": "poshak mardane12",
+      "images": "/images/18.jpg",
+      "price": 6500000,
+      "desc": "لباس مردانه برای مهمانی",
+      "category": "bachegan"
+    }
+  ],
+  "discounts": [
+    {
+      "id": "1",
+      "code": "rv1",
+      "precentage": 20
+    },
+    {
+      "id": "2",
+      "code": "rv2",
+      "precentage": 30
+    },
+    {
+      "id": "3",
+      "code": "rv3",
+      "precentage": 40
+    }
+  ]
+}

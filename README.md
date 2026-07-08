@@ -1,36 +1,107 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🛍️ MenWear Marketplace
 
-## Getting Started
+A modern multi-vendor men's clothing marketplace built with **ASP.NET Core**. The platform allows customers to browse and purchase products while enabling sellers to manage and publish their own products through a dedicated dashboard.
 
-First, run the development server:
+---
+
+> ⚠️ **Work in Progress**
+>
+> This project is still a work in progress. Some features are not yet available and will be added in upcoming releases. Thank you for your patience and feedback!
+
+---
+
+## ✨ Features
+
+### 👤 Customer
+
+* User registration and login
+* Browse men's clothing products
+* Search and filter products
+* Product details page
+* Shopping cart
+* Order placement
+
+### 🛒 Seller
+
+* Seller dashboard
+* Upload new products
+* Edit and delete products
+* Manage product inventory
+* View own products
+
+### ⚙️ Admin
+
+* Manage users
+* Manage sellers
+* Manage products
+* Category management
+
+---
+
+## 🛠️ Technologies
+
+* ASP.NET Core
+* Entity Framework Core
+* SQL Server
+* Bootstrap
+* HTML5
+* CSS3
+* JavaScript
+
+---
+
+## 🚀 Getting Started
+
+1. Clone the repository
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/parsarvs1/menwear-marketplace.git
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Open the project in Visual Studio.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+3. Configure the database connection in `appsettings.json`.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+4. Apply migrations (if needed).
 
-## Learn More
+5. Run the project.
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 📂 Project Structure
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+```
+Controllers/
+Models/
+Views/
+wwwroot/
+Data/
+Services/
+Repositories/
+```
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🎯 Future Improvements
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+* Online payment gateway
+* Product reviews and ratings
+* Wishlist
+* Email notifications
+* Order tracking
+* Responsive improvements
+
+---
+
+## 👨‍💻 Author
+
+**Parsa**
+
+GitHub:
+https://github.com/parsarvs1
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License.
