@@ -10,7 +10,12 @@ interface producprops {
 
 export default async function product({ params }: producprops) {
   const { id } = await params;
-  const result = await fetch(`http://localhost:3001/products/${id}`);
+  const baseUrl =
+  process.env.NEXT_PUBLIC_BASE_URL || "http://localhost:3000";
+
+const result = await fetch(`${baseUrl}/api/products/${id}`, {
+  cache: "no-store",
+});
   const data = (await result.json()) as dataproduct;
 
   return (
