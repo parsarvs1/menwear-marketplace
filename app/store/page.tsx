@@ -22,7 +22,10 @@ export default async function store({ searchParams }: iprops) {
   const price = (await searchParams).price ?? "";
   const category = (await searchParams).category ?? "";
 
-  let url = "http://localhost:3000/api/products";
+  const baseUrl =
+  process.env.NEXT_PUBLIC_BASE_URL || "http://localhost:3000";
+
+let url = `${baseUrl}/api/products`;
   const params = new URLSearchParams();
 
   if (title) params.append("title", title);
@@ -37,7 +40,9 @@ export default async function store({ searchParams }: iprops) {
     url = `${url}?${queryString}`;
   }
 
-  const result = await fetch(url);
+  const result = await fetch(url, {
+    cache: "no-store",
+  });
   const response = await result.json();
 
   const data = response.data || response;
